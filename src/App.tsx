@@ -205,7 +205,7 @@ function App() {
                         {li.text}
                       </p>
                       <img
-                        src="/public/image/icon-cross.svg"
+                        src="/image/icon-cross.svg"
                         alt=""
                         className="w-[20px] h-[20px] mx-2 rounded-full cursor-pointer "
                         onClick={() => deleteTodo(li.id)}
