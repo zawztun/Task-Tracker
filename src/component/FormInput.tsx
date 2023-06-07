@@ -10,9 +10,8 @@ type Props = {
 
 const FormInput = ({ todos, setTodos }: Props) => {
   const [input, setInput] = useState("");
-  //   const [todos, setTodos] = useState<Todo[]>([]);
 
-  const handleKeyPress = (event: any) => {
+  const handleKeyPress = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Enter") {
       const data = [...todos];
       data.push({

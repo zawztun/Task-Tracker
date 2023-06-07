@@ -1,4 +1,5 @@
 import type { Todo } from "../App";
+
 type TodoListProps = {
   showItems: Todo[];
   toggleComplete: (selectedTodo: string) => void;
